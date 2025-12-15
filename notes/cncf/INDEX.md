@@ -1,0 +1,260 @@
+# CNCF projects index
+
+Generated from `notes/_sources/cncf-landscape/landscape.yml`.
+
+## Counts
+- Graduated: 34
+- Incubating: 36
+- Sandbox: 141
+- Archived: 26
+
+## Graduated
+- [Argo](projects/argo.md) — App Definition and Development → Continuous Integration & Delivery
+- [cert-manager](projects/cert-manager.md) — Provisioning → Security & Compliance
+- [Cilium](projects/cilium.md) — Runtime → Cloud Native Network
+- [CloudEvents](projects/cloudevents.md) — App Definition and Development → Streaming & Messaging
+- [containerd](projects/containerd.md) — Runtime → Container Runtime
+- [CoreDNS](projects/coredns.md) — Orchestration & Management → Coordination & Service Discovery
+- [CRI-O](projects/cri-o.md) — Runtime → Container Runtime
+- [Crossplane](projects/crossplane.md) — Orchestration & Management → Scheduling & Orchestration
+- [CubeFS](projects/chubaofs.md) — Runtime → Cloud Native Storage
+- [Dapr](projects/dapr.md) — App Definition and Development → Application Definition & Image Build
+- [Dragonfly](projects/d7y.md) — Provisioning → Container Registry
+- [Envoy](projects/envoy.md) — Orchestration & Management → Service Proxy
+- [etcd](projects/etcd.md) — Orchestration & Management → Coordination & Service Discovery
+- [Falco](projects/falco.md) — Provisioning → Security & Compliance
+- [Fluentd](projects/fluentd.md) — Observability and Analysis → Observability
+- [Flux](projects/fluxcd.md) — App Definition and Development → Continuous Integration & Delivery
+- [Harbor](projects/harbor.md) — Provisioning → Container Registry
+- [Helm](projects/helm.md) — App Definition and Development → Application Definition & Image Build
+- [in-toto](projects/intoto.md) — Provisioning → Security & Compliance
+- [Istio](projects/istio.md) — Orchestration & Management → Service Mesh
+- [Jaeger](projects/jaeger.md) — Observability and Analysis → Observability
+- [KEDA](projects/keda.md) — Orchestration & Management → Scheduling & Orchestration
+- [Knative](projects/knative.md) — Orchestration & Management → Scheduling & Orchestration
+- [KubeEdge](projects/kubeedge.md) — Provisioning → Automation & Configuration
+- [Kubernetes](projects/k8s.md) — Orchestration & Management → Scheduling & Orchestration
+- [Linkerd](projects/linkerd.md) — Orchestration & Management → Service Mesh
+- [Open Policy Agent (OPA)](projects/openpolicyagent.md) — Provisioning → Security & Compliance
+- [Prometheus](projects/prometheus-del.md) — Observability and Analysis → Observability
+- [Rook](projects/rook.md) — Runtime → Cloud Native Storage
+- [SPIFFE](projects/spiffe.md) — Provisioning → Key Management
+- [SPIRE](projects/spire.md) — Provisioning → Key Management
+- [The Update Framework (TUF)](projects/tuf.md) — Provisioning → Security & Compliance
+- [TiKV](projects/tikv.md) — App Definition and Development → Database
+- [Vitess](projects/vitess.md) — App Definition and Development → Database
+
+## Incubating
+- [Artifact Hub](projects/artifact-hub.md) — App Definition and Development → Application Definition & Image Build
+- [Backstage](projects/backstage.md) — App Definition and Development → Application Definition & Image Build
+- [Buildpacks](projects/buildpacks.md) — App Definition and Development → Application Definition & Image Build
+- [Chaos Mesh](projects/chaosmesh.md) — Observability and Analysis → Chaos Engineering
+- [Cloud Custodian](projects/c7n.md) — Provisioning → Automation & Configuration
+- [Container Network Interface (CNI)](projects/cni.md) — Runtime → Cloud Native Network
+- [Contour](projects/contour.md) — Orchestration & Management → Service Proxy
+- [Cortex](projects/cortex.md) — Observability and Analysis → Observability
+- [Emissary-Ingress](projects/emissary.md) — Orchestration & Management → API Gateway
+- [Flatcar Container Linux](projects/flatcar.md) — Platform → Certified Kubernetes - Distribution
+- [gRPC](projects/grpc.md) — Orchestration & Management → Remote Procedure Call
+- [Karmada](projects/karmada.md) — Orchestration & Management → Scheduling & Orchestration
+- [Keycloak](projects/keycloak.md) — Provisioning → Security & Compliance
+- [KServe](projects/kserve.md) — CNAI → ML Serving
+- [Kubeflow](projects/kubeflow.md) — Orchestration & Management → Scheduling & Orchestration
+- [Kubescape](projects/kubescape.md) — Provisioning → Security & Compliance
+- [KubeVela](projects/kubevela.md) — App Definition and Development → Application Definition & Image Build
+- [KubeVirt](projects/kubevirt.md) — App Definition and Development → Application Definition & Image Build
+- [Kyverno](projects/kyverno.md) — Provisioning → Security & Compliance
+- [Lima](projects/lima.md) — Runtime → Container Runtime
+- [Litmus](projects/litmuschaos.md) — Observability and Analysis → Chaos Engineering
+- [Longhorn](projects/longhorn.md) — Runtime → Cloud Native Storage
+- [Metal³](projects/metal3.md) — Provisioning → Automation & Configuration
+- [NATS](projects/nats.md) — App Definition and Development → Streaming & Messaging
+- [Notary Project](projects/notary-project.md) — Provisioning → Security & Compliance
+- [OpenCost](projects/opencost.md) — Observability and Analysis → Continuous Optimization
+- [OpenFeature](projects/openfeature.md) — Observability and Analysis → Feature Flagging
+- [OpenFGA](projects/openfga.md) — Provisioning → Security & Compliance
+- [OpenKruise](projects/openkruise.md) — App Definition and Development → Continuous Integration & Delivery
+- [OpenTelemetry](projects/opentelemetry.md) — Observability and Analysis → Observability
+- [OpenYurt](projects/openyurt.md) — Provisioning → Automation & Configuration
+- [Operator Framework](projects/operator-sdk.md) — App Definition and Development → Application Definition & Image Build
+- [Strimzi](projects/strimzi.md) — App Definition and Development → Streaming & Messaging
+- [Thanos](projects/thanos.md) — Observability and Analysis → Observability
+- [Volcano](projects/volcano.md) — Orchestration & Management → Scheduling & Orchestration
+- [wasmCloud](projects/wasmcloud.md) — Orchestration & Management → Scheduling & Orchestration
+
+## Sandbox
+- [Aeraki Mesh](projects/aerakimesh.md) — Orchestration & Management → Service Mesh
+- [Akri](projects/akri.md) — Provisioning → Automation & Configuration
+- [Antrea](projects/antrea.md) — Runtime → Cloud Native Network
+- [Armada](projects/armada.md) — Orchestration & Management → Scheduling & Orchestration
+- [Athenz](projects/athenz.md) — Provisioning → Key Management
+- [Atlantis](projects/atlantis.md) — Provisioning → Automation & Configuration
+- [Bank-Vaults](projects/bank-vaults.md) — Provisioning → Security & Compliance
+- [BFE](projects/bfe.md) — Orchestration & Management → Service Proxy
+- [bootc](projects/bootc.md) — Runtime → Container Runtime
+- [bpfman](projects/bpfman.md) — Provisioning → Security & Compliance
+- [Cadence Workflow](projects/cadence.md) — Provisioning → Automation & Configuration
+- [Capsule](projects/capsule.md) — Orchestration & Management → Scheduling & Orchestration
+- [Carina](projects/carina.md) — Runtime → Cloud Native Storage
+- [Cartography](projects/cartography.md) — Provisioning → Security & Compliance
+- [Carvel](projects/carvel.md) — App Definition and Development → Application Definition & Image Build
+- [CDK for Kubernetes (CDK8s)](projects/cdk8s.md) — Provisioning → Automation & Configuration
+- [Chaosblade](projects/chaosblade.md) — Observability and Analysis → Chaos Engineering
+- [CloudNativePG](projects/cloudnativepg.md) — App Definition and Development → Database
+- [Clusternet](projects/clusternet.md) — Orchestration & Management → Scheduling & Orchestration
+- [Clusterpedia](projects/clusterpedia.md) — Orchestration & Management → Scheduling & Orchestration
+- [composefs](projects/composefs.md) — Runtime → Container Runtime
+- [Confidential Containers](projects/confcont.md) — Provisioning → Security & Compliance
+- [Connect RPC](projects/connect.md) — Orchestration & Management → Remote Procedure Call
+- [container2wasm](projects/container2wasm.md) — Wasm → Orchestration & Management
+- [ContainerSSH](projects/containerssh.md) — Provisioning → Security & Compliance
+- [Copa](projects/copacetic.md) — Provisioning → Security & Compliance
+- [Cozystack](projects/cozystack.md) — Platform → PaaS/Container Service
+- [Dalec](projects/dalec.md) — App Definition and Development → Application Definition & Image Build
+- [Devfile](projects/devfile.md) — App Definition and Development → Application Definition & Image Build
+- [DevSpace](projects/devspace.md) — App Definition and Development → Application Definition & Image Build
+- [Dex](projects/dex.md) — Provisioning → Security & Compliance
+- [Distribution](projects/cncf-distribution.md) — Provisioning → Container Registry
+- [Drasi](projects/drasi.md) — App Definition and Development → Streaming & Messaging
+- [Easegress](projects/easegress.md) — Orchestration & Management → API Gateway
+- [Eraser](projects/eraser.md) — Orchestration & Management → Scheduling & Orchestration
+- [external-secrets](projects/externalsecretsoperator.md) — Provisioning → Security & Compliance
+- [Fluid](projects/fluid.md) — Orchestration & Management → Scheduling & Orchestration
+- [hami](projects/hami.md) — Orchestration & Management → Scheduling & Orchestration
+- [Hexa](projects/hexa.md) — Provisioning → Security & Compliance
+- [HwameiStor](projects/hwameistor.md) — Runtime → Cloud Native Storage
+- [Hyperlight](projects/hyperlight.md) — Runtime → Container Runtime
+- [Inclavare Containers](projects/inclavarecontainers.md) — Runtime → Container Runtime
+- [Inspektor Gadget](projects/inspektorgadget.md) — Observability and Analysis → Observability
+- [Interlink](projects/interlink.md) — Runtime → Container Runtime
+- [k0s](projects/k0s.md) — Orchestration & Management → Scheduling & Orchestration
+- [k3s](projects/k3s.md) — Platform → Certified Kubernetes - Distribution
+- [k8gb](projects/k8gb.md) — Orchestration & Management → Coordination & Service Discovery
+- [K8sGPT](projects/k8sgpt.md) — Observability and Analysis → Observability
+- [K8up](projects/k8up.md) — Runtime → Cloud Native Storage
+- [kagent](projects/kagent.md) — Provisioning → Automation & Configuration
+- [Kairos](projects/kairos.md) — Provisioning → Automation & Configuration
+- [KAITO](projects/kaito.md) — CNAI → ML Serving
+- [Kanister](projects/kanister.md) — Runtime → Cloud Native Storage
+- [KCL](projects/kcl.md) — Provisioning → Automation & Configuration
+- [kcp](projects/kcp.md) — Orchestration & Management → Scheduling & Orchestration
+- [Kepler](projects/kepler.md) — Observability and Analysis → Observability
+- [Keylime](projects/keylime.md) — Provisioning → Security & Compliance
+- [Kgateway](projects/kgateway.md) — Orchestration & Management → API Gateway
+- [KitOps](projects/kitops.md) — Provisioning → Automation & Configuration
+- [Kmesh](projects/kmesh.md) — Orchestration & Management → Service Mesh
+- [ko](projects/ko.md) — App Definition and Development → Application Definition & Image Build
+- [Konveyor](projects/konveyor.md) — App Definition and Development → Application Definition & Image Build
+- [Koordinator](projects/koordinator.md) — Orchestration & Management → Scheduling & Orchestration
+- [kpt](projects/kpt.md) — Provisioning → Automation & Configuration
+- [Krkn](projects/krkn.md) — Observability and Analysis → Chaos Engineering
+- [Kuadrant](projects/kuadrant.md) — Orchestration & Management → API Gateway
+- [Kuasar](projects/kuasar.md) — Runtime → Container Runtime
+- [Kube-burner](projects/kube-burner.md) — App Definition and Development → Continuous Integration & Delivery
+- [Kube-OVN](projects/kube-ovn.md) — Runtime → Cloud Native Network
+- [kube-rs](projects/kube-rs.md) — Orchestration & Management → Scheduling & Orchestration
+- [kube-vip](projects/kube-vip.md) — Runtime → Cloud Native Network
+- [Kubean](projects/kubean.md) — Provisioning → Automation & Configuration
+- [KubeArmor](projects/kubearmor.md) — Provisioning → Security & Compliance
+- [KubeClipper](projects/kubeclipper.md) — Platform → Certified Kubernetes - Installer
+- [KubeFleet](projects/kubefleet.md) — Orchestration & Management → Scheduling & Orchestration
+- [Kuberhealthy](projects/kuberhealthy.md) — Observability and Analysis → Observability
+- [KubeSlice](projects/kubeslice.md) — Orchestration & Management → Scheduling & Orchestration
+- [KubeStellar](projects/kubestellar.md) — Orchestration & Management → Scheduling & Orchestration
+- [Kubewarden](projects/kubewarden.md) — Provisioning → Security & Compliance
+- [KUDO](projects/kudo.md) — App Definition and Development → Application Definition & Image Build
+- [Kuma](projects/kuma.md) — Orchestration & Management → Service Mesh
+- [Kured](projects/kured.md) — Orchestration & Management → Scheduling & Orchestration
+- [KusionStack](projects/kusionstack.md) — Provisioning → Automation & Configuration
+- [Logging Operator (Kube Logging)](projects/logging-operator.md) — Observability and Analysis → Observability
+- [LoxiLB](projects/loxilb.md) — Orchestration & Management → Service Proxy
+- [Meshery](projects/meshery.md) — Provisioning → Automation & Configuration
+- [MetalLB](projects/metallb.md) — Orchestration & Management → Service Proxy
+- [Microcks](projects/microcks.md) — App Definition and Development → Application Definition & Image Build
+- [ModelPack](projects/modelpack.md) — App Definition and Development → Application Definition & Image Build
+- [Network Service Mesh](projects/nsm.md) — Runtime → Cloud Native Network
+- [OAuth2 Proxy](projects/oauth2-proxy.md) — Provisioning → Security & Compliance
+- [Open Cluster Management](projects/openclustermanagement.md) — Orchestration & Management → Scheduling & Orchestration
+- [Open Policy Containers](projects/opcr.md) — Provisioning → Security & Compliance
+- [OpenEBS](projects/openebs.md) — Runtime → Cloud Native Storage
+- [OpenFunction](projects/openfunction.md) — Orchestration & Management → Scheduling & Orchestration
+- [openGemini](projects/opengemini.md) — App Definition and Development → Database
+- [OpenGitOps](projects/gitops-wg.md) — App Definition and Development → Continuous Integration & Delivery
+- [OpenTofu](projects/opentf.md) — Provisioning → Automation & Configuration
+- [ORAS](projects/oras.md) — Runtime → Cloud Native Storage
+- [OSCAL-COMPASS](projects/trestlegrc.md) — Provisioning → Security & Compliance
+- [OVN-Kubernetes](projects/ovn-kubernetes.md) — Runtime → Cloud Native Network
+- [Oxia](projects/oxia.md) — Orchestration & Management → Coordination & Service Discovery
+- [Paralus](projects/paralus.md) — Provisioning → Security & Compliance
+- [Parsec](projects/parsec.md) — Provisioning → Security & Compliance
+- [Perses](projects/perses.md) — Observability and Analysis → Observability
+- [PipeCD](projects/pipecd.md) — App Definition and Development → Continuous Integration & Delivery
+- [Piraeus Datastore](projects/piraeus-datastore.md) — Runtime → Cloud Native Storage
+- [Pixie](projects/pixie.md) — Observability and Analysis → Observability
+- [Podman Container Tools](projects/podman-container-tools.md) — Runtime → Container Runtime
+- [Podman Desktop](projects/podman-desktop.md) — App Definition and Development → Application Definition & Image Build
+- [Porter](projects/porter.md) — App Definition and Development → Application Definition & Image Build
+- [Radius](projects/radius.md) — App Definition and Development → Application Definition & Image Build
+- [Ratify](projects/ratify.md) — Provisioning → Security & Compliance
+- [Runme Notebooks](projects/runme-notebooks.md) — Provisioning → Automation & Configuration
+- [SchemaHero](projects/schemahero.md) — App Definition and Development → Database
+- [Score](projects/score.md) — App Definition and Development → Application Definition & Image Build
+- [Sermant](projects/sermant.md) — Orchestration & Management → Service Mesh
+- [Serverless Devs](projects/serverlessdevs.md) — Orchestration & Management → Scheduling & Orchestration
+- [Serverless Workflow](projects/serverlessworkflow.md) — App Definition and Development → Application Definition & Image Build
+- [Shipwright](projects/shipwright.md) — App Definition and Development → Application Definition & Image Build
+- [SlimFaaS](projects/slimfaas.md) — Serverless → Installable Platform
+- [SlimToolkit](projects/slimtoolkit.md) — Provisioning → Security & Compliance
+- [SOPS](projects/sops.md) — Provisioning → Security & Compliance
+- [Spiderpool](projects/spiderpool.md) — Runtime → Cloud Native Network
+- [SpinKube](projects/spinkube.md) — Wasm → Orchestration & Management
+- [Stacker](projects/stacker.md) — App Definition and Development → Application Definition & Image Build
+- [Submariner](projects/submariner.md) — Runtime → Cloud Native Network
+- [Telepresence](projects/telepresence.md) — App Definition and Development → Application Definition & Image Build
+- [Tinkerbell](projects/tinkerbell.md) — Provisioning → Automation & Configuration
+- [Tokenetes](projects/tratteria.md) — Provisioning → Security & Compliance
+- [Tremor](projects/tremor.md) — App Definition and Development → Streaming & Messaging
+- [Trickster](projects/trickster.md) — Observability and Analysis → Observability
+- [urunc](projects/urunc.md) — Runtime → Container Runtime
+- [Vineyard](projects/vineyard.md) — Runtime → Cloud Native Storage
+- [Virtual Kubelet](projects/virtualkubelet.md) — Runtime → Container Runtime
+- [Visual Studio Code Kubernetes Tools](projects/vscodekubernetestools.md) — App Definition and Development → Application Definition & Image Build
+- [WasmEdge Runtime](projects/wasmedge-runtime.md) — Runtime → Container Runtime
+- [werf](projects/werf.md) — App Definition and Development → Continuous Integration & Delivery
+- [xRegistry](projects/xregistry.md) — App Definition and Development → Application Definition & Image Build
+- [youki](projects/youki.md) — Runtime → Container Runtime
+- [zot](projects/zot.md) — Provisioning → Container Registry
+
+## Archived
+- [Brigade](projects/brigade.md) — App Definition and Development → Continuous Integration & Delivery
+- [CNI-Genie](projects/cni-genie.md) — Runtime → Cloud Native Network
+- [Curiefense](projects/curiefense.md) — Provisioning → Security & Compliance
+- [Curve](projects/curve.md) — Runtime → Cloud Native Storage
+- [DevStream](projects/devstream.md) — Provisioning → Automation & Configuration
+- [FabEdge](projects/fabedge.md) — Runtime → Cloud Native Network
+- [Fonio](projects/ingraind.md) — Observability and Analysis → Observability
+- [Keptn](projects/keptn.md) — App Definition and Development → Continuous Integration & Delivery
+- [Krator](projects/krator.md) — App Definition and Development → Application Definition & Image Build
+- [Krustlet](projects/krustlet.md) — Runtime → Container Runtime
+- [KubeDL](projects/kubedl.md) — Provisioning → Automation & Configuration
+- [Merbridge](projects/merbridge.md) — Orchestration & Management → Service Mesh
+- [Nocalhost](projects/nocalhost.md) — App Definition and Development → Application Definition & Image Build
+- [Open Service Mesh](projects/osm.md) — Orchestration & Management → Service Mesh
+- [OpenELB](projects/openelb.md) — Orchestration & Management → Service Proxy
+- [OpenMetrics](projects/openmetrics.md) — Observability and Analysis → Observability
+- [OpenTracing](projects/opentracing.md) — Observability and Analysis → Observability
+- [Pravega](projects/pravega.md) — App Definition and Development → Streaming & Messaging
+- [rkt](projects/rkt.md) — Runtime → Container Runtime
+- [sealer](projects/sealer.md) — App Definition and Development → Application Definition & Image Build
+- [Service Mesh Interface (SMI)](projects/smi.md) — Orchestration & Management → Service Mesh
+- [Service Mesh Performance](projects/service-mesh-performance.md) — Orchestration & Management → Service Mesh
+- [Skooner](projects/k8dash.md) — Observability and Analysis → Observability
+- [SuperEdge](projects/superedge.md) — Provisioning → Automation & Configuration
+- [Teller](projects/teller.md) — Provisioning → Key Management
+- [Xline](projects/xline.md) — Orchestration & Management → Coordination & Service Discovery
+
+## Regenerating
+
+```bash
+python3 scripts/update_cncf_notes.py
+```
